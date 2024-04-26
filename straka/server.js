@@ -29,3 +29,6 @@ app.get('/about', function(req, res) {
 app.listen(4269);
 console.log('Server is listening on port 4269');
 
+
+module.exports = app;
+
